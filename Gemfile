@@ -6,5 +6,6 @@ gem 'sinatra'
 gem 'shotgun'
 gem 'rspec'
 gem 'capybara'
+gem 'pg'
 gem 'rubocop'
 gem 'simplecov', require: false, group: :test
