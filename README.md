@@ -6,6 +6,11 @@ As a user,
 So that I can see my bookmarks,
 I'd like to see a list of previously added bookmarks.
 
+###User Story 2
+As a user,
+So that I can refer back to my favourite websites
+I'd like to add bookmarks to my bookmark manager.
+
 ###Domain Model for User Story 1
 
 CLIENT--->(GET request through browser)-->CONTROLLER
