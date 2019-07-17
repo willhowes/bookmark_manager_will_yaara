@@ -10,7 +10,7 @@ feature 'Viewing bookmarks' do
     Bookmark.create(url: "www.makersacademy.com", title: "Makers")
     Bookmark.create(url: "www.twitter.com", title: "Twitter")
 
-    visit('/bookmarks')
+    visit('/')
 
     expect(page).to have_link('Google', href: "www.google.com")
     expect(page).to have_link('Makers', href: "www.makersacademy.com")

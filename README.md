@@ -11,6 +11,11 @@ As a user,
 So that I can refer back to my favourite websites
 I'd like to add bookmarks to my bookmark manager.
 
+###User Story 3
+As a user
+So I can remove my bookmark from Bookmark Manager
+I want to delete a bookmark
+
 ###Domain Model for User Story 1
 
 CLIENT--->(GET request through browser)-->CONTROLLER
